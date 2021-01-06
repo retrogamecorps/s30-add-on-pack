@@ -1,0 +1,9 @@
+title=Wonderswan Color
+#description=WS Emulator
+icon=skin:icons/ws.png
+backdrop=skin:wallpapers/wsc.png
+exec=/mnt/extsd/emus/mednafen/mednafen
+volume=1
+selectorbrowser=false
+selectordir=/mnt/extsd/roms/wsc
+wrapper=true

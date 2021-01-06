@@ -1,0 +1,10 @@
+title=TurboGrafx-16
+#description=PCE Emulator
+icon=skin:icons/pce.png
+backdrop=skin:wallpapers/tg16.png
+exec=/mnt/extsd/emus/retro/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c retroarch.cfg -L mednafen_pce_fast_libretro.so
+selectordir=/mnt/extsd/roms/tg16
+wrapper=true

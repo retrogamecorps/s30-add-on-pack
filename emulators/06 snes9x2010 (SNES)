@@ -1,0 +1,10 @@
+title=SNES
+#description=SNES Emulator
+icon=skin:icons/dc.png
+backdrop=skin:wallpapers/snes.png
+exec=/mnt/extsd/emus/retro/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c retroarch.cfg -L snes9x2010_libretro.so
+selectordir=/mnt/extsd/roms/snes
+wrapper=true

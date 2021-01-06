@@ -1,0 +1,9 @@
+title=Neo Geo Pocket Color
+#description=NGP Emulator
+icon=skin:icons/ngp.png
+backdrop=skin:wallpapers/ngpc.png
+exec=/mnt/extsd/emus/mednafen/mednafen
+volume=1
+selectorbrowser=false
+selectordir=/mnt/extsd/roms/ngpc
+wrapper=true
