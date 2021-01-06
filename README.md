@@ -45,7 +45,7 @@ sms (new)<br>
 snes (previously named "sfc")<br>
 tg16 (previously named "pce")<br>
 tgcd (new)<br>
-wsc (previously named "ws")<br><br>
+wsc (previously named "ws")<br>
 
 6. ADD BIOS FILES:  Ensure you have the following BIOS files in the appropriate locations on the SD card.  These BIOS files are not part of the add-on pack, you will need to find them yourself.
 
