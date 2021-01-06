@@ -5,6 +5,6 @@ backdrop=skin:wallpapers/nes.png
 exec=/mnt/extsd/emus/retro/retroarch
 volume=1
 selectorbrowser=false
-params=-v -c retroarch.cfg -L fceumm_libretro.so
+params=-v -c retroarch-nes.cfg -L fceumm_libretro.so
 selectordir=/mnt/extsd/roms/nes
 wrapper=true
