@@ -23,28 +23,28 @@ https://github.com/CkauNui/ckau-book
 4. UPDATE EMULATORS.  On your SD card, go to the emus/ folder, and remove the 'retro' folder.  You can store it on your computer for safe-keeping if you'd like.  Place the new 'retro' folder from this pack into the emus folder.
 5. VERIFY ROMS FOLDERS: On your SD card, go to the roms folder and change the folder names so they are as follows (minus the information in the parenthesis).  Also, delete the folder named "npg", this is an unecessary folder.  You will need to create new folders for some systems, and rename some others:
 
-- 32x (new)
-- dc (no change)
-- fbn (previously named "fba")
-- fds (new)
-- gb (no change)
-- gba (no change)
-- gbc (no change)
-- genesis (previously named "md")
-- gg (new)
-- gw (new)
-- mame (no change)
+32x (new)<br>
+dc (no change)<br>
+fbn (previously named "fba")<br>
+fds (new)<br>
+gb (no change)<br>
+gba (no change)<br>
+gbc (no change)<br>
+genesis (previously named "md")<br>
+gg (new)<br>
+gw (new)<br>
+mame (no change)<br>
 neogeo (new)<br>
 nes (previously named "fc")<br>
-- ngpc (previously named "ngp")
-- psp (previously named "ppsspp")
-- psx (previously named "ps")
-- segacd (new)
-- sms (new)
-- snes (previously named "sfc")
-- tg16 (previously named "pce")
-- tgcd (new)
-- wsc (previously named "ws")
+ngpc (previously named "ngp")<br>
+psp (previously named "ppsspp")<br>
+psx (previously named "ps")<br>
+segacd (new)<br>
+sms (new)<br>
+snes (previously named "sfc")<br>
+tg16 (previously named "pce")<br>
+tgcd (new)<br>
+wsc (previously named "ws")<br><br>
 
 6. ADD BIOS FILES:  Ensure you have the following BIOS files in the appropriate locations on the SD card.  These BIOS files are not part of the add-on pack, you will need to find them yourself.
 
@@ -56,28 +56,28 @@ nes (previously named "fc")<br>
 
 ## Supported Systems
 
-FINALBURN NEO
-MAME 2003
-NEO GEO
-NINTENDO ENTERTAINMENT SYSTEM
-FAMICOM DISK SYSTEM
-SUPER NINTENDO ENTERTAINMENT SYSTEM
-NINTENDO GAME & WATCH
-NINTENDO GAME BOY
-NINTENDO GAME BOY COLOR
-NINTENDO GAME BOY ADVANCE
-SEGA MASTER SYSTEM
-SEGA GENESIS
-SEGA CD
-SEGA 32X
-SEGA DREAMCAST
-SEGA GAME GEAR
-SONY PLAYSTATION
-SONY PSP
-TURBOGRAFX-16 (PC ENGINE)
-TURBOGRAFX-CD (PC ENGINE CD)
-NEO GEO POCKET / COLOR
-WONDERSWAN / COLOR
+FINALBURN NEO<br>
+MAME 2003<br>
+NEO GEO<br>
+NINTENDO ENTERTAINMENT SYSTEM<br>
+FAMICOM DISK SYSTEM<br>
+SUPER NINTENDO ENTERTAINMENT SYSTEM<br>
+NINTENDO GAME & WATCH<br>
+NINTENDO GAME BOY<br>
+NINTENDO GAME BOY COLOR<br>
+NINTENDO GAME BOY ADVANCE<br>
+SEGA MASTER SYSTEM<br>
+SEGA GENESIS<br>
+SEGA CD<br>
+SEGA 32X<br>
+SEGA DREAMCAST<br>
+SEGA GAME GEAR<br>
+SONY PLAYSTATION<br>
+SONY PSP<br>
+TURBOGRAFX-16 (PC ENGINE)<br>
+TURBOGRAFX-CD (PC ENGINE CD)<br>
+NEO GEO POCKET / COLOR<br>
+WONDERSWAN / COLOR<br>
 
 ## Changelog
 
