@@ -9,7 +9,7 @@ This pack also includes updated emulators (RetroArch cores) with pre-configured 
 
 This add-on pack assumes that you have already backed up the stock SD card that came with your device.  The user accepts all responsibility for exploded microSD cards or S30 devices.
 
-To download, click on the green "Get Code" button at the top-right of this page, and then select "Download Zip".
+To download, click on the green "Code" button at the top-right of this page, and then select "Download Zip".
 
 PocketGo S30 Starter Guide: 
 
