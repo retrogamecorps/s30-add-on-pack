@@ -1,4 +1,5 @@
-# PocketGo S30 add-on pack by onionsaregross (http://retrogamecorps.com)
+# PocketGo S30 Add-On Pack 
+by onionsaregross (http://retrogamecorps.com)
 
 ## Introduction
 
@@ -81,8 +82,8 @@ WONDERSWAN / COLOR<br>
 
 ## Changelog
 
-v1.0
-- release
-
-v1.1
+v1.1 (05JAN2021)
 - added RetroArch cores, game & watch, and game gear
+
+v1.0 (24DEC2020)
+- release
