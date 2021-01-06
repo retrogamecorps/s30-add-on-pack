@@ -82,6 +82,8 @@ TURBOGRAFX-CD (PC ENGINE CD)<br>
 NEO GEO POCKET / COLOR<br>
 WONDERSWAN / COLOR<br>
 
+- To delete a system from your device, simply go into the sections/emulators folder and delete the undesired system launch file.
+
 ## Changelog
 
 v1.1 (05JAN2021)
