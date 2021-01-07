@@ -5,6 +5,6 @@ backdrop=skin:wallpapers/fbn.png
 exec=/mnt/extsd/emus/retro/retroarch
 volume=1
 selectorbrowser=false
-params=-v -c retroarch.cfg -L fbneo_libretro.so
+params=-v -c retroarch-arcade.cfg -L fbneo_libretro.so
 selectordir=/mnt/extsd/roms/fbn
 wrapper=true
