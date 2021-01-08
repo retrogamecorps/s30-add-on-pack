@@ -90,6 +90,11 @@ WONDERSWAN / COLOR<br>
 
 ## Changelog
 
+v1.2 (08JAN2021)
+- fixed Arcade aspect ratio
+- updated RetroArch core settings
+- fullscreen fix for most emulators
+
 v1.1 (05JAN2021)
 - added RetroArch cores, game & watch, and game gear
 
