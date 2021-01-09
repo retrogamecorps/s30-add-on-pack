@@ -36,6 +36,7 @@ gbc (no change)<br>
 genesis (previously named "md")<br>
 gg (new)<br>
 gw (new)<br>
+lynx (new)<br>
 mame (no change)<br>
 neogeo (new)<br>
 nes (previously named "fc")<br>
@@ -47,15 +48,19 @@ sms (new)<br>
 snes (previously named "sfc")<br>
 tg16 (previously named "pce")<br>
 tgcd (new)<br>
+vb (new)<br>
 wsc (previously named "ws")<br>
 
 6. ADD BIOS FILES:  Ensure you have the following BIOS files in the appropriate locations on the SD card.  These BIOS files are not part of the add-on pack, you will need to find them yourself.
 
+- Game Boy Advance: place the gba_bios.bin BIOS file in the bios folder
+- PlayStation: place scph1001.bin BIOS file in the bios folder
+- Sega Dreamcast: place dc_boot.bin and dc_flash.bin BIOS files in the bios/dc folder
+- Neo Geo: place the neogeo.zip BIOS file in the bios folder
 - Famicom Disk System: place the disksys.rom BIOS file in the bios folder
 - Sega CD: place the bios_CD_E.bin, bios_CD_J.bin, and bios_CD_U.bin BIOS files in the bios folder
 - TurboGrafx-CD: place the syscard1.pce, syscard2.pce, and syscard3.pce files in the bios folder
-- PlayStation: place scph1001.bin BIOS file in the bios folder
-- Game Boy Advance: place the gba_bios.bin BIOS file in the bios folder
+- Atari Lynx: place the lynxboot.img BIOS file in the bios folder
 
 ## Supported Systems
 
@@ -65,6 +70,7 @@ NEO GEO<br>
 NINTENDO ENTERTAINMENT SYSTEM<br>
 FAMICOM DISK SYSTEM<br>
 SUPER NINTENDO ENTERTAINMENT SYSTEM<br>
+NINTENDO VIRTUAL BOY<br>
 NINTENDO GAME & WATCH<br>
 NINTENDO GAME BOY<br>
 NINTENDO GAME BOY COLOR<br>
@@ -80,6 +86,7 @@ SONY PSP<br>
 TURBOGRAFX-16 (PC ENGINE)<br>
 TURBOGRAFX-CD (PC ENGINE CD)<br>
 NEO GEO POCKET / COLOR<br>
+ATARI LYNX<br>
 WONDERSWAN / COLOR<br>
 
 - To delete a system from your device, simply go into the sections/emulators folder and delete the undesired system launch file.
@@ -89,6 +96,9 @@ WONDERSWAN / COLOR<br>
 - I recommend not powering off the system while mid-game.  Tap the power button and select "Close Content" to go to the main menu, then power down.  If you power down during a game, the retroarch-core-options.cfg file will get overwritten, and you will lose some functionality (green colorization in GB, high resolution in Dreamcast).  If this happens to you, paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card: https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg 
 
 ## Changelog
+
+v1.3 (08JAN2021)
+- added Atari Lynx and Virtual Boy
 
 v1.2 (08JAN2021)
 - fixed Arcade aspect ratio
