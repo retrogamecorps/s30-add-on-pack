@@ -1,0 +1,10 @@
+title=Atari Lynx
+#description=Lynx Emulator
+icon=skin:icons/ngp.png
+backdrop=skin:wallpapers/lynx.png
+exec=/mnt/extsd/emus/retro/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c retroarch-nes.cfg -L handy_libretro.so
+selectordir=/mnt/extsd/roms/lynx
+wrapper=true
