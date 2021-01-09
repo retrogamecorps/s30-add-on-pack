@@ -93,9 +93,10 @@ WONDERSWAN / COLOR<br>
 
 - To delete a system from your device, simply go into the sections/emulators folder and delete the undesired system launch file.
 
-## Known Issues
+## Notes and Known Issues
 
 - I recommend not powering off the system while mid-game.  Tap the power button and select "Close Content" to go to the main menu, then power down.  If you power down during a game, the retroarch-core-options.cfg file will get overwritten, and you will lose some functionality (green colorization in GB, high resolution in Dreamcast).  If this happens to you, paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card: https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg 
+- If you are interested in adding your own RetroArch cores to this device, they are running cores from this repo: https://github.com/bite-your-idols/Gamestarter/tree/master/packages/libretro-cores-RPi
 
 ## Changelog
 
