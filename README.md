@@ -11,7 +11,7 @@ This add-on pack assumes that you have already backed up the stock SD card that 
 
 To download, click on the green "Code" button at the top-right of this page, and then select "Download Zip".
 
-PocketGo S30 Starter Guide: 
+PocketGo S30 Starter Guide: https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
 
 ## Credit
 
