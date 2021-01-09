@@ -13,7 +13,7 @@ To download, click on the green "Code" button at the top-right of this page, and
 
 PocketGo S30 Starter Guide: https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
 
-If you would rather download an fresh copy of the original SD card contents + this add-on pack to paste into a brand new SD card (formatted to FAT32), you can find it here.  Note that this does not include any ROM or BIOS files, so you will need to add those yourself: https://retrogamecorps.files.wordpress.com/2021/01/s30_backup.zip
+If you would rather download an fresh copy of the original SD card contents + this add-on pack to paste into a brand new SD card, you can find it here.  Note that you must format the new card to FAT32, and this does not include any ROM or BIOS files, so you will need to add those yourself: https://retrogamecorps.files.wordpress.com/2021/01/s30_backup.zip
 
 ## Credit
 
