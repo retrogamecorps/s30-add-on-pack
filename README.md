@@ -111,7 +111,7 @@ ATARI 2600<br>
 ## Changelog
 
 v1.4 (11JAN2021)
-- reverted PS1 emulator to stock emulator to accomodate L2/R2 function
+- reverted PS1 emulator to stock emulator to accommodate L2/R2 function
 - added Commodore 64, ZX Spectrum, Tic-80, and Atari 2600
 
 v1.3 (08JAN2021)
