@@ -116,6 +116,7 @@ QUAKE<br>
 ## Changelog
 
 v1.4 (11JAN2021)
+- reverted PS1 emulator to stock emulator to accomodate L2/R2 function
 - added Commodore 64, ZX Spectrum, Tic-80, Atari 2600, DOOM, and Quake.  For more information on how to load them, check out the S30 Starter Guide at https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
 
 v1.3 (08JAN2021)
