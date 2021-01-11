@@ -11,7 +11,7 @@ This add-on pack assumes that you have already backed up the stock SD card that 
 
 To download, click on the green "Code" button at the top-right of this page, and then select "Download Zip".
 
-PocketGo S30 Starter Guide: https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
+PocketGo S30 Starter Guide, which includes accepted game file types: https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
 
 If you would rather download an fresh copy of the original SD card contents (+ the v1.3 add-on pack pre-loaded), and paste into a brand new SD card, you can find it here.  Note that you must format the new card to FAT32, and this does not include any ROM or BIOS files, so you will need to add those yourself. https://retrogamecorps.files.wordpress.com/2021/01/s30_backup.zip
 
@@ -32,7 +32,6 @@ https://github.com/CkauNui/ckau-book
 atari2600 (new)<br>
 c64 (new)<br>
 dc (no change)<br>
-doom (new)<br>
 fbn (previously named "fba")<br>
 fds (new)<br>
 gb (no change)<br>
@@ -48,7 +47,6 @@ nes (previously named "fc")<br>
 ngpc (previously named "ngp")<br>
 psp (previously named "ppsspp")<br>
 psx (previously named "ps")<br>
-quake (new)<br>
 segacd (new)<br>
 sms (new)<br>
 snes (previously named "sfc")<br>
@@ -69,7 +67,6 @@ zxspectrum (new)<br>
 - Sega CD: place the bios_CD_E.bin, bios_CD_J.bin, and bios_CD_U.bin BIOS files in the bios folder
 - TurboGrafx-CD: place the syscard1.pce, syscard2.pce, and syscard3.pce files in the bios folder
 - Atari Lynx: place the lynxboot.img BIOS file in the bios folder
-- Add the included "prboom.wad" file to the roms/doom folder.  This is a royalty-free file that is necessary to run the retail (doom.wad and doom2.wad) files.
 
 ## Supported Systems
 
@@ -101,8 +98,6 @@ COMMODORE 64<br>
 ZX SPECTRUM<br>
 TIC-80<br>
 ATARI 2600<br>
-DOOM<br>
-QUAKE<br>
 
 - To delete a system from your device, simply go into the sections/emulators folder and delete the undesired system launch file.
 
@@ -117,7 +112,7 @@ QUAKE<br>
 
 v1.4 (11JAN2021)
 - reverted PS1 emulator to stock emulator to accomodate L2/R2 function
-- added Commodore 64, ZX Spectrum, Tic-80, Atari 2600, DOOM, and Quake.  For more information on how to load them, check out the S30 Starter Guide at https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
+- added Commodore 64, ZX Spectrum, Tic-80, and Atari 2600
 
 v1.3 (08JAN2021)
 - added Atari Lynx and Virtual Boy
