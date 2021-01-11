@@ -13,7 +13,7 @@ To download, click on the green "Code" button at the top-right of this page, and
 
 PocketGo S30 Starter Guide: https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
 
-If you would rather download an fresh copy of the original SD card contents (+ this add-on pack pre-loaded), and paste into a brand new SD card, you can find it here.  Note that you must format the new card to FAT32, and this does not include any ROM or BIOS files, so you will need to add those yourself. https://retrogamecorps.files.wordpress.com/2021/01/s30_backup.zip
+If you would rather download an fresh copy of the original SD card contents (+ the v1.3 add-on pack pre-loaded), and paste into a brand new SD card, you can find it here.  Note that you must format the new card to FAT32, and this does not include any ROM or BIOS files, so you will need to add those yourself. https://retrogamecorps.files.wordpress.com/2021/01/s30_backup.zip
 
 ## Credit
 
@@ -29,7 +29,10 @@ https://github.com/CkauNui/ckau-book
 5. VERIFY ROMS FOLDERS: On your SD card, go to the 'roms' folder and change the folder names so they are as follows (minus the information in the parenthesis).  Also, delete the folder named "npg", this is an unecessary folder.  You will need to create new folders for some systems, and rename some others:
 
 32x (new)<br>
+atari2600 (new)<br>
+c64 (new)<br>
 dc (no change)<br>
+doom (new)<br>
 fbn (previously named "fba")<br>
 fds (new)<br>
 gb (no change)<br>
@@ -45,13 +48,16 @@ nes (previously named "fc")<br>
 ngpc (previously named "ngp")<br>
 psp (previously named "ppsspp")<br>
 psx (previously named "ps")<br>
+quake (new)<br>
 segacd (new)<br>
 sms (new)<br>
 snes (previously named "sfc")<br>
 tg16 (previously named "pce")<br>
 tgcd (new)<br>
+tic80 (new)<br>
 vb (new)<br>
 wsc (previously named "ws")<br>
+zxspectrum (new)<br>
 
 6. ADD BIOS FILES:  Ensure you have the following BIOS files in the appropriate locations on the SD card.  These BIOS files are not part of the add-on pack, you will need to find them yourself.
 
@@ -63,6 +69,7 @@ wsc (previously named "ws")<br>
 - Sega CD: place the bios_CD_E.bin, bios_CD_J.bin, and bios_CD_U.bin BIOS files in the bios folder
 - TurboGrafx-CD: place the syscard1.pce, syscard2.pce, and syscard3.pce files in the bios folder
 - Atari Lynx: place the lynxboot.img BIOS file in the bios folder
+- Add the included "prboom.wad" file to the roms/doom folder.  This is a royalty-free file that is necessary to run the retail (doom.wad and doom2.wad) files.
 
 ## Supported Systems
 
@@ -90,17 +97,26 @@ TURBOGRAFX-CD (PC ENGINE CD)<br>
 NEO GEO POCKET / COLOR<br>
 ATARI LYNX<br>
 WONDERSWAN / COLOR<br>
+COMMODORE 64<br>
+ZX SPECTRUM<br>
+TIC-80<br>
+ATARI 2600<br>
+DOOM<br>
+QUAKE<br>
 
 - To delete a system from your device, simply go into the sections/emulators folder and delete the undesired system launch file.
 
 ## Notes and Known Issues
 
 - I recommend not powering off the system while mid-game.  Tap the power button and select "Close Content" to go to the main menu, then power down.  If you power down during a game, the retroarch-core-options.cfg file will get overwritten, and you will lose some functionality (green colorization in GB, high resolution in Dreamcast).  If this happens to you, paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card: https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg 
-- L2 and R2 are not assigned in RetroArch, and I cannot figure out how to assign them since we're locked out of the RetroArch menu.  This means that PS1 games that use L2 and R2 won't be fully playable.
+- L2 and R2 are not assigned in RetroArch, and I cannot figure out how to assign them since we're locked out of the RetroArch menu.  For this reason, I am still using the PS1 emulator that shipped with the S30 device.
 - In-game saves with GBA/Pokemon appear to be erased upon powering off the device.
 - If you are interested in adding your own RetroArch cores to this device, they are running cores from this repo: https://github.com/bite-your-idols/Gamestarter/tree/master/packages/libretro-cores-RPi
 
 ## Changelog
+
+v1.4 (11JAN2021)
+- added Commodore 64, ZX Spectrum, Tic-80, Atari 2600, DOOM, and Quake.  For more information on how to load them, check out the S30 Starter Guide at https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
 
 v1.3 (08JAN2021)
 - added Atari Lynx and Virtual Boy
