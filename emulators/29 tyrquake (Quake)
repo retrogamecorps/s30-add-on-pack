@@ -6,6 +6,6 @@ exec=/mnt/extsd/emus/retro/retroarch
 volume=1
 selectorbrowser=false
 params=-v -c retroarch.cfg -L tyrquake_libretro.so
-selectordir=/mnt/extsd/roms/quake
+selectordir=/mnt/extsd/roms/quake/id1
 wrapper=true
 selectorfilter=pak
