@@ -60,7 +60,7 @@ zxspectrum (new)<br>
 6. ADD BIOS FILES:  Ensure you have the following BIOS files in the appropriate locations on the SD card.  These BIOS files are not part of the add-on pack, you will need to find them yourself.
 
 - Game Boy Advance: place the gba_bios.bin BIOS file in the bios folder
-- PlayStation: place scph1001.bin BIOS file in the bios folder
+- PlayStation: place scph1001.bin BIOS file in the emus/pcsx4all/bios folder
 - Sega Dreamcast: place dc_boot.bin and dc_flash.bin BIOS files in the bios/dc folder
 - Neo Geo: place the neogeo.zip BIOS file in the bios folder
 - Famicom Disk System: place the disksys.rom BIOS file in the bios folder
