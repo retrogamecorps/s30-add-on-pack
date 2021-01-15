@@ -17,13 +17,16 @@ If you would rather download an fresh copy of the original SD card contents (+ t
 
 ## Credit
 
-Wallpaper images based on ckau-book Batocera theme by CkauNui
+Default wallpaper images based on ckau-book Batocera theme by CkauNui
 https://github.com/CkauNui/ckau-book
+Futura theme by Baguette Crusader
+Futura (alternate) theme by victoriemini
+ckau theme by Cartman
 
 ## Instructions
 
 1. Insert your S30 microSD card into your computer.
-2. UPDATE WALLPAPERS:  On your SD card, go to the skins/Default/wallpapers folder, and remove those files.  You can store them on your computer for safe-keeping if you'd like.  Open the 'wallpapers' folder from this pack, and place the png files in the skins/Default/wallpapers folder.
+2. UPDATE WALLPAPERS:  On your SD card, go to the skins/Default/wallpapers folder, and remove those files.  You can store them on your computer for safe-keeping if you'd like.  Open the 'wallpapers' folder from this pack, and place the png files in the skins/Default/wallpapers folder.  If you'd like, you'll find subfolders with other themes (Futura, ckau, etc.), and you can use those instead.  Some of these alternate themes have their own font; if you find a font.ttf file in the subfolder, move it to the skins/Default/ folder and replace the font.ttf file that's already in there.
 3. UPDATE LAUNCH FILES:  On your SD card, go to the sections/emulators folder, and remove those files.  You can store them on your computer for safe-keeping if you'd like.  Open the 'emulators' folder from this pack, and place the files in the sections/emulators folder.
 4. UPDATE EMULATORS.  On your SD card, go to the 'emus' folder, and remove the 'retro' folder.  You can store it on your computer for safe-keeping if you'd like.  Place the new 'retro' folder from this pack into the emus folder.  Then, unzip the file named "unzip_and_add_to_retro_folder.zip", and add its contents to the new retro folder on your SD card.
 5. VERIFY ROMS FOLDERS: On your SD card, go to the 'roms' folder and change the folder names so they are as follows (minus the information in the parenthesis).  Also, delete the folder named "npg", this is an unecessary folder.  You will need to create new folders for some systems, and rename some others:
@@ -109,6 +112,9 @@ ATARI 2600<br>
 - If you are interested in adding your own RetroArch cores to this device, they are running cores from this repo: https://github.com/bite-your-idols/Gamestarter/tree/master/packages/libretro-cores-RPi
 
 ## Changelog
+
+v1.5 (14JAN2021)
+- added alternative themes from the community
 
 v1.4 (11JAN2021)
 - reverted PS1 emulator to stock emulator to accommodate L2/R2 function
