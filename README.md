@@ -13,7 +13,7 @@ To download, click on the green "Code" button at the top-right of this page, and
 
 PocketGo S30 Starter Guide, which includes accepted game file types and a video walkthrough: https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
 
-If you would rather download an fresh copy of the original SD card contents (+ the v1.3 add-on pack pre-loaded), and paste into a brand new SD card, you can find it here.  Note that you must format the new card to FAT32, and this does not include any ROM or BIOS files, so you will need to add those yourself. https://retrogamecorps.files.wordpress.com/2021/01/s30_backup_1_4-1.zip
+If you would rather download an fresh copy of the original SD card contents (+ the v1.3 add-on pack pre-loaded), and paste into a brand new SD card, you can find it here.  Note that you must format the new card to FAT32, and this does not include any ROM or BIOS files, so you will need to add those yourself. https://drive.google.com/file/d/11o8Y4Gi6ygX03mZ0fobpyxd9FtV3JnDX/view?usp=sharing
 
 ## Credit
 
@@ -28,8 +28,9 @@ ckau theme by Cartman
 1. Insert your S30 microSD card into your computer.
 2. UPDATE WALLPAPERS:  On your SD card, go to the skins/Default/wallpapers folder, and remove those files.  You can store them on your computer for safe-keeping if you'd like.  Open the 'wallpapers' folder from this pack, and place the png files in the skins/Default/wallpapers folder.  If you'd like, you'll find subfolders with other themes (Futura, ckau, etc.), and you can use those instead.  Some of these alternate themes have their own font; if you find a font.ttf file in the subfolder, move it to the skins/Default/ folder and replace the font.ttf file that's already in there.
 3. UPDATE LAUNCH FILES:  On your SD card, go to the sections/emulators folder, and remove those files.  You can store them on your computer for safe-keeping if you'd like.  Open the 'emulators' folder from this pack, and place the files in the sections/emulators folder.
-4. UPDATE EMULATORS.  On your SD card, go to the 'emus' folder, and remove the 'retro' folder.  You can store it on your computer for safe-keeping if you'd like.  Place the new 'retro' folder from this pack into the emus folder.  Then, unzip the file named "unzip_and_add_to_retro_folder.zip", and add its contents to the new retro folder on your SD card.
-5. VERIFY ROMS FOLDERS: On your SD card, go to the 'roms' folder and change the folder names so they are as follows (minus the information in the parenthesis).  Also, delete the folder named "npg", this is an unecessary folder.  You will need to create new folders for some systems, and rename some others:
+4. CREATE A SAVES FOLDER.  Go to the main (root) directory of your SD card, and create a folder named "saves" (lowercase).
+5. UPDATE EMULATORS.  On your SD card, go to the 'emus' folder, and remove the 'retro' folder.  You can store it on your computer for safe-keeping if you'd like.  Place the new 'retro' folder from this pack into the emus folder.  Then, unzip the file named "unzip_and_add_to_retro_folder.zip", and add its contents to the new retro folder on your SD card.
+6. VERIFY ROMS FOLDERS: On your SD card, go to the 'roms' folder and change the folder names so they are as follows (minus the information in the parenthesis).  Also, delete the folder named "npg", this is an unecessary folder.  You will need to create new folders for some systems, and rename some others:
 
 32x (new)<br>
 atari2600 (new)<br>
@@ -60,7 +61,7 @@ vb (new)<br>
 wsc (previously named "ws")<br>
 zxspectrum (new)<br>
 
-6. ADD BIOS FILES:  Ensure you have the following BIOS files in the appropriate locations on the SD card.  These BIOS files are not part of the add-on pack, you will need to find them yourself.
+7. ADD BIOS FILES:  Ensure you have the following BIOS files in the appropriate locations on the SD card.  These BIOS files are not part of the add-on pack, you will need to find them yourself.
 
 - Game Boy Advance: place the gba_bios.bin BIOS file in the bios folder
 - PlayStation: place scph1001.bin BIOS file in the emus/pcsx4all/bios folder
@@ -114,8 +115,10 @@ ATARI 2600<br>
 
 ## Changelog
 
-v1.5 (14JAN2021)
+v1.5 (15JAN2021)
 - added alternative themes from the community
+- fixed save games/states persistence issue
+- fixed naming of sections/emulators
 
 v1.4 (11JAN2021)
 - reverted PS1 emulator to stock emulator to accommodate L2/R2 function
