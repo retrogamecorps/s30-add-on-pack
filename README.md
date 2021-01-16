@@ -108,7 +108,7 @@ ATARI 2600<br>
 
 - I recommend *not* powering off the system while mid-game.  Tap the power button and select "Close Content" to go to the main menu, then power down.  If you power down during a game, the retroarch-core-options.cfg file will get overwritten, and you will lose some functionality (green colorization in GB, high resolution in Dreamcast).  If this happens to you, paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card: https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg 
 - L2 and R2 are not assigned in RetroArch, and I cannot figure out how to assign them since we're locked out of the RetroArch menu.  For this reason, I am still using the PS1 emulator that shipped with the S30 device.
-- In-game saves with GBA Pokemon (and perhaps some other GBA games) appear to be erased upon powering off the device.
+- In-game saves with GBA Pokemon hacks appear to be erased upon powering off the device.
 - If you are having problems saving games, eject your SD card and place it in a Windows PC.  You will be prompted to "scan and repair" the disk; follow those prompts and then re-insert the SD card into your PocketGo S30.  This may clear those write errors on your card.
 - If you are interested in adding your own RetroArch cores to this device, they are running cores from this repo: https://github.com/bite-your-idols/Gamestarter/tree/master/packages/libretro-cores-RPi
 
