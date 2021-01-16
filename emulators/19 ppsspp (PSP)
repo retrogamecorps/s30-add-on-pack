@@ -1,0 +1,10 @@
+title=Sony PSP
+#description=PPSSPP Emulator
+icon=skin:icons/ppsspp.png
+backdrop=skin:wallpapers/psp.png
+exec=/mnt/extsd/emus/ppsspp/PPSSPPSDL
+clock=600
+volume=1
+wrapper=true
+selectorbrowser=false
+selectordir=/mnt/extsd/roms/psp

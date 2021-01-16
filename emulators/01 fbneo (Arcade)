@@ -1,0 +1,10 @@
+title=FinalBurn Neo
+#description=Arcade Emulator
+icon=skin:icons/fba.png
+backdrop=skin:wallpapers/fbn.png
+exec=/mnt/extsd/emus/retro/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c retroarch-arcade.cfg -L fbneo_libretro.so
+selectordir=/mnt/extsd/roms/fbn
+wrapper=true
