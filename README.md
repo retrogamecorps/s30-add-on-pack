@@ -19,6 +19,7 @@ If you would rather download an fresh copy of the original SD card contents (+ t
 
 Default wallpaper images based on ckau-book Batocera theme by CkauNui
 https://github.com/CkauNui/ckau-book<br>
+game_bg.png image by VinceHase<br>
 Futura theme by Baguette Crusader<br>
 Futura (alternate) theme by victoriemini<br>
 ckau theme by Cartman
