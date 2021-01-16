@@ -3,7 +3,7 @@ by onionsaregross (http://retrogamecorps.com)
 
 ## Introduction
 
-This add-on pack will create new wallpapers for all of your systems, increase the number of systems available on your device, and organize the menu into a logical hierarchy: Nintendo systems (by order of release and consoles before handhelds), Sega systems, Sony systems, NEC systems, then outlying handhelds (Neo Geo Pocket, Wonderswan).
+This add-on pack will create new wallpapers for all of your systems, increase the number of systems available on your device, and organize the menu into a logical hierarchy: Nintendo systems (by order of release and consoles before handhelds), Sega systems, Sony systems, NEC systems, then outlying handhelds (Neo Geo Pocket, Wonderswan, etc).
 
 This pack also includes updated emulators (RetroArch cores) with pre-configured screen settings and ideal aspect ratios for emulation accuracy.
 
