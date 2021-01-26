@@ -1,6 +1,8 @@
 # PocketGo S30 Add-On Pack 
 by onionsaregross (http://retrogamecorps.com)
 
+<b>To download, click on the green "Code" button at the top-right of this page, and then select "Download Zip".</b>
+
 ## Introduction
 
 This add-on pack will create new wallpapers for all of your systems, increase the number of systems available on your device, and organize the menu into a logical hierarchy: Nintendo systems (by order of release and consoles before handhelds), Sega systems, Sony systems, NEC systems, then outlying handhelds (Neo Geo Pocket, Wonderswan, etc) and other systems.
@@ -8,8 +10,6 @@ This add-on pack will create new wallpapers for all of your systems, increase th
 This pack also includes updated emulators (RetroArch cores) with pre-configured screen settings and ideal aspect ratios for emulation accuracy.
 
 This add-on pack assumes that you have already backed up the stock SD card that came with your device.  The user accepts all responsibility for exploded microSD cards or S30 devices.
-
-<b>To download, click on the green "Code" button at the top-right of this page, and then select "Download Zip".</b>
 
 <b>PocketGo S30 Starter Guide</b>, which includes accepted game file types and a video walkthrough: https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
 
