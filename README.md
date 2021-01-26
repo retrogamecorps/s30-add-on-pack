@@ -132,12 +132,12 @@ If you are running a previous version of this add-on pack (like v1.5), you only 
 - Changed retroarch-core-options.cfg to a read-only file in hopes that it won't get overwritten. This mean that Dreamcast should remain at 640x480 resolution and Game Boy should keep a green shader coloring. If either of these features disappear, download and paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card. https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg
 - Added tweak to savestate_auto_index in config files to allow more than one save state per core.
 - Steamlined retroarch.cfg files to serve specific purposes, mostly concerning aspect ratio.
--- retroarch.cfg = full-screen aspect ratio
--- retroarch-arcade.cfg = should be an automatically adjusting ratio based on game
--- retroarch-dc.cfg = adds shoulder buttons to the Dreamcast emulator
--- retroarch-gb.cfg = handheld aspect ratio (somewhere between 1:1 and 8:7)
--- retroarch-gba.cfg = full-screen aspect ratio with no smoothing for GBA, WSC, and Lynx
--- retroarch-nes.cfg = console aspect ratio (somewhere between 4:3 and 3:2)
+1. retroarch.cfg = full-screen aspect ratio
+2. retroarch-arcade.cfg = should be an automatically adjusting ratio based on game
+3. retroarch-dc.cfg = adds shoulder buttons to the Dreamcast emulator
+4. retroarch-gb.cfg = handheld aspect ratio (somewhere between 1:1 and 8:7)
+5. retroarch-gba.cfg = full-screen aspect ratio with no smoothing for GBA, WSC, and Lynx
+6. retroarch-nes.cfg = console aspect ratio (somewhere between 4:3 and 3:2)
 
 v1.5 (15JAN2021)
 - added alternative themes from the community
