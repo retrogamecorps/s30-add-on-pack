@@ -116,7 +116,7 @@ ATARI 2600<br>
 
 ## Changelog
 
-v1.6 (25JAN2021)
+<b>v1.6 (25JAN2021)</b><br>
 This update fixes a number of issues related to aspect ratio and Dreamcast buttons.
 
 - If you are coming straight over from stock settings, follow the instructions in the ReadMe file.
@@ -141,25 +141,25 @@ Uopdates from previous release:<br>
 5. retroarch-gba.cfg = full-screen aspect ratio with no smoothing for GBA, WSC, and Lynx
 6. retroarch-nes.cfg = console aspect ratio (somewhere between 4:3 and 3:2)
 
-v1.5 (15JAN2021)
+<b>v1.5 (15JAN2021)</b>
 - added alternative themes from the community
 - fixed save games/states persistence issue
 - fixed naming of sections/emulators
 
-v1.4 (11JAN2021)
+<b>v1.4 (11JAN2021)</b>
 - reverted PS1 emulator to stock emulator to accommodate L2/R2 function
 - added Commodore 64, ZX Spectrum, Tic-80, and Atari 2600
 
-v1.3 (08JAN2021)
+<b>v1.3 (08JAN2021)</b>
 - added Atari Lynx and Virtual Boy
 
-v1.2 (08JAN2021)
+<b>v1.2 (08JAN2021)</b>
 - fixed Arcade aspect ratio
 - updated RetroArch core settings
 - fullscreen fix for most emulators
 
-v1.1 (05JAN2021)
+<b>v1.1 (05JAN2021)</b>
 - added RetroArch cores, game & watch, and game gear
 
-v1.0 (24DEC2020)
+<b>v1.0 (24DEC2020)</b>
 - release
