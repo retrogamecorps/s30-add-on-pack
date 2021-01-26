@@ -119,18 +119,19 @@ ATARI 2600<br>
 v1.6 (25JAN2021)
 This update fixes a number of issues related to aspect ratio and Dreamcast buttons.
 
-If you are coming straight over from stock settings, follow the instructions in the ReadMe file.
-If you'd like, you can also download the fresh image file, unzip, and drag into a new SD card that is FAT32 formatted.
+- If you are coming straight over from stock settings, follow the instructions in the ReadMe file.
+- If you'd like, you can also download the fresh image file, unzip, and drag into a new SD card that is FAT32 formatted.
 
 If you are running a previous version of this add-on pack (like v1.5), you only need to do two steps:
 
-Replace the cfg files found in the emus/retro/ folder on your SD card with the cfg files found in the retro folder in this package.
-Replace the contents of the sections/emulators folder with the contents of the emulators folder found in this package.
-Fixed aspect ratios across the board. They aren't perfect, but they will look less stretched. Aspect ratios are not logical with this device, so I had to make the best guess based on how it looked to my eye.
-Added shoulder buttons to Dreamcast (L1 and R1 function as triggers).
-Changed retroarch-core-options.cfg to a read-only file in hopes that it won't get overwritten. This mean that Dreamcast should remain at 640x480 resolution and Game Boy should keep a green shader coloring. If either of these features disappear, download and paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card. https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg
-Added tweak to savestate_auto_index in config files to allow more than one save state per core.
-Steamlined retroarch.cfg files to serve specific purposes, mostly concerning aspect ratio.
+- Replace the cfg files found in the emus/retro/ folder on your SD card with the cfg files found in the retro folder in this package.
+- Replace the contents of the sections/emulators folder with the contents of the emulators folder found in this package.
+
+- Fixed aspect ratios across the board. They aren't perfect, but they will look less stretched. Aspect ratios are not logical with this device, so I had to make the best guess based on how it looked to my eye.
+- Added shoulder buttons to Dreamcast (L1 and R1 function as triggers).
+- Changed retroarch-core-options.cfg to a read-only file in hopes that it won't get overwritten. This mean that Dreamcast should remain at 640x480 resolution and Game Boy should keep a green shader coloring. If either of these features disappear, download and paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card. https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg
+- Added tweak to savestate_auto_index in config files to allow more than one save state per core.
+- Steamlined retroarch.cfg files to serve specific purposes, mostly concerning aspect ratio.
 -- retroarch.cfg = full-screen aspect ratio
 -- retroarch-arcade.cfg = should be an automatically adjusting ratio based on game
 -- retroarch-dc.cfg = adds shoulder buttons to the Dreamcast emulator
