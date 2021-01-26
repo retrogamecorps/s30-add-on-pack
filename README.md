@@ -3,7 +3,7 @@ by onionsaregross (http://retrogamecorps.com)
 
 ## Introduction
 
-This add-on pack will create new wallpapers for all of your systems, increase the number of systems available on your device, and organize the menu into a logical hierarchy: Nintendo systems (by order of release and consoles before handhelds), Sega systems, Sony systems, NEC systems, then outlying handhelds (Neo Geo Pocket, Wonderswan, etc).
+This add-on pack will create new wallpapers for all of your systems, increase the number of systems available on your device, and organize the menu into a logical hierarchy: Nintendo systems (by order of release and consoles before handhelds), Sega systems, Sony systems, NEC systems, then outlying handhelds (Neo Geo Pocket, Wonderswan, etc) and other systems.
 
 This pack also includes updated emulators (RetroArch cores) with pre-configured screen settings and ideal aspect ratios for emulation accuracy.
 
@@ -13,7 +13,7 @@ To download, click on the green "Code" button at the top-right of this page, and
 
 <b>PocketGo S30 Starter Guide</b>, which includes accepted game file types and a video walkthrough: https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
 
-If you would rather download an fresh copy of the original SD card contents (+ the v1.5 add-on pack pre-loaded), and paste into a brand new SD card, you can find it here.  Note that you must format the new card to FAT32, and this does not include any ROM or BIOS files, so you will need to add those yourself. https://drive.google.com/file/d/11o8Y4Gi6ygX03mZ0fobpyxd9FtV3JnDX/view?usp=sharing
+If you would rather download an fresh copy of the original SD card contents (+ the v1.6 add-on pack pre-loaded), and paste into a brand new SD card, you can find it here.  Note that you must format the new card to FAT32, and this does not include any ROM or BIOS files, so you will need to add those yourself. https://drive.google.com/file/d/1bHU6oCX4zQgXECaDV9Bu8nrLDoMxEC43/view?usp=sharing
 
 ## Credit
 
@@ -115,6 +115,28 @@ ATARI 2600<br>
 - If you are interested in adding your own RetroArch cores to this device, they are running cores from this repo: https://github.com/bite-your-idols/Gamestarter/tree/master/packages/libretro-cores-RPi
 
 ## Changelog
+
+v1.6 (25JAN2021)
+This update fixes a number of issues related to aspect ratio and Dreamcast buttons.
+
+If you are coming straight over from stock settings, follow the instructions in the ReadMe file.
+If you'd like, you can also download the fresh image file, unzip, and drag into a new SD card that is FAT32 formatted.
+
+If you are running a previous version of this add-on pack (like v1.5), you only need to do two steps:
+
+Replace the cfg files found in the emus/retro/ folder on your SD card with the cfg files found in the retro folder in this package.
+Replace the contents of the sections/emulators folder with the contents of the emulators folder found in this package.
+Fixed aspect ratios across the board. They aren't perfect, but they will look less stretched. Aspect ratios are not logical with this device, so I had to make the best guess based on how it looked to my eye.
+Added shoulder buttons to Dreamcast (L1 and R1 function as triggers).
+Changed retroarch-core-options.cfg to a read-only file in hopes that it won't get overwritten. This mean that Dreamcast should remain at 640x480 resolution and Game Boy should keep a green shader coloring. If either of these features disappear, download and paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card. https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg
+Added tweak to savestate_auto_index in config files to allow more than one save state per core.
+Steamlined retroarch.cfg files to serve specific purposes, mostly concerning aspect ratio.
+-- retroarch.cfg = full-screen aspect ratio
+-- retroarch-arcade.cfg = should be an automatically adjusting ratio based on game
+-- retroarch-dc.cfg = adds shoulder buttons to the Dreamcast emulator
+-- retroarch-gb.cfg = handheld aspect ratio (somewhere between 1:1 and 8:7)
+-- retroarch-gba.cfg = full-screen aspect ratio with no smoothing for GBA, WSC, and Lynx
+-- retroarch-nes.cfg = console aspect ratio (somewhere between 4:3 and 3:2)
 
 v1.5 (15JAN2021)
 - added alternative themes from the community
