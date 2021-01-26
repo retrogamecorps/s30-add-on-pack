@@ -127,6 +127,8 @@ If you are running a previous version of this add-on pack (like v1.5), you only 
 1. Replace the cfg files found in the emus/retro/ folder on your SD card with the cfg files found in the retro folder in this package.
 2. Replace the contents of the sections/emulators folder with the contents of the emulators folder found in this package.
 
+Uopdates from previous release:<br>
+
 - Fixed aspect ratios across the board. They aren't perfect, but they will look less stretched. Aspect ratios are not logical with this device, so I had to make the best guess based on how it looked to my eye.
 - Added shoulder buttons to Dreamcast (L1 and R1 function as triggers).
 - Changed retroarch-core-options.cfg to a read-only file in hopes that it won't get overwritten. This mean that Dreamcast should remain at 640x480 resolution and Game Boy should keep a green shader coloring. If either of these features disappear, download and paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card. https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg
