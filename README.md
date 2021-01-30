@@ -123,6 +123,7 @@ ATARI 2600<br>
 
 - New safe shutdown method to preserve saves and configuration files.  Thank you to DaMikki for the solution.
 - Added epicnoir theme to optional themes, thank you to TetrisSQC for the work.
+- Added 'v1.7' to Settings background image to indicate Add-On Pack version.
 
 For users coming from v1.6 of this pack, you need to perform the following steps to implement safe shutdown:
 
