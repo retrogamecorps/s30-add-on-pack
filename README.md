@@ -33,8 +33,8 @@ save shutdown solution by DaMikki
 3. UPDATE LAUNCH FILES:  On your SD card, go to the 'sections' folder, and remove the 'emulators' folder.  Place the new 'emulators' folder from this pack in the 'sections' folder.
 4. MOVE 'SAVES' FOLDER.  Move the 'saves' folder in this package to the main (root) directory of your SD card.
 5. MOVE 'SOFTSHUTDOWN' FOLDER.   Move the 'softshutdown' folder in this package to the 'emus' directory of your SD card.
-5. UPDATE EMULATORS.  On your SD card, go to the 'emus' folder, and remove the 'retro' folder.  You can store it on your computer for safe-keeping if you'd like.  Place the new 'retro' folder from this pack into the emus folder.  Then, unzip the file named "unzip_and_add_to_retro_folder.zip", and add its contents to the new retro folder on your SD card.
-6. VERIFY ROMS FOLDERS: On your SD card, go to the 'roms' folder and change the folder names so they are as follows (minus the information in the parenthesis).  Also, delete the folder named "npg", this is an unecessary folder.  You will need to create new folders for some systems, and rename some others:
+6. UPDATE EMULATORS.  On your SD card, go to the 'emus' folder, and remove the 'retro' folder.  You can store it on your computer for safe-keeping if you'd like.  Place the new 'retro' folder from this pack into the emus folder.  Then, unzip the file named "unzip_and_add_to_retro_folder.zip", and add its contents to the new retro folder on your SD card.
+7. VERIFY ROMS FOLDERS: On your SD card, go to the 'roms' folder and change the folder names so they are as follows (minus the information in the parenthesis).  Also, delete the folder named "npg", this is an unecessary folder.  You will need to create new folders for some systems, and rename some others:
 
 32x (new)<br>
 atari2600 (new)<br>
@@ -65,7 +65,7 @@ vb (new)<br>
 wsc (previously named "ws")<br>
 zxspectrum (new)<br>
 
-7. ADD BIOS FILES:  Ensure you have the following BIOS files in the appropriate locations on the SD card.  These BIOS files are not part of the add-on pack, you will need to find them yourself.
+8. ADD BIOS FILES:  Ensure you have the following BIOS files in the appropriate locations on the SD card.  These BIOS files are not part of the add-on pack, you will need to find them yourself.
 
 - Game Boy Advance: place the gba_bios.bin BIOS file in the bios folder
 - PlayStation: place scph1001.bin BIOS file in the emus/pcsx4all/bios folder
