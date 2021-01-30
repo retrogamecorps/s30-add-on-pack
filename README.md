@@ -27,9 +27,10 @@ ckau theme by Cartman
 ## Instructions
 
 1. Insert your S30 microSD card into your computer.
-2. UPDATE WALLPAPERS:  On your SD card, remove the skins/Default folder, and remove the 'wallpapers' folder.  Place the new 'wallpapers' folder from this pack into the skins/Default folder.  If you'd like, you'll find subfolders with other themes (Futura, ckau, etc.), and you can use those instead -- just move the images into the skins/Default folder.  Some of these alternate themes have their own font; if you find a font.ttf file in the subfolder, move it to the skins/Default folder and replace the font.ttf file that's already in there.
+2. UPDATE WALLPAPERS:  On your SD card, remove the skins/Default folder, and remove the 'wallpapers' folder.  Place the new 'wallpapers' folder from this pack into the skins/Default folder.  If you'd like, you'll find subfolders with other themes (Futura, ckau, epicnoir, etc.), and you can use those instead -- just move the images into the skins/Default folder.  Some of these alternate themes have their own font; if you find a font.ttf file in the subfolder, move it to the skins/Default folder and replace the font.ttf file that's already in there.  If they do not contain the "poweroff.png" image in their skins collection, continue to use the default image.
 3. UPDATE LAUNCH FILES:  On your SD card, go to the 'sections' folder, and remove the 'emulators' folder.  Place the new 'emulators' folder from this pack in the 'sections' folder.
-4. CREATE A SAVES FOLDER.  Go to the main (root) directory of your SD card, and create a folder named "saves" (lowercase).
+4. MOVE 'SAVES' FOLDER.  Move the 'saves' folder in this package to the main (root) directory of your SD card.
+5. MOVE 'SOFTSHUTDOWN' FOLDER.   Move the 'softshutdown' folder in this package to the 'emus' directory of your SD card.
 5. UPDATE EMULATORS.  On your SD card, go to the 'emus' folder, and remove the 'retro' folder.  You can store it on your computer for safe-keeping if you'd like.  Place the new 'retro' folder from this pack into the emus folder.  Then, unzip the file named "unzip_and_add_to_retro_folder.zip", and add its contents to the new retro folder on your SD card.
 6. VERIFY ROMS FOLDERS: On your SD card, go to the 'roms' folder and change the folder names so they are as follows (minus the information in the parenthesis).  Also, delete the folder named "npg", this is an unecessary folder.  You will need to create new folders for some systems, and rename some others:
 
@@ -108,13 +109,26 @@ ATARI 2600<br>
 
 ## Notes and Known Issues
 
-- I recommend *not* powering off the system while mid-game.  Tap the power button and select "Close Content" to go to the main menu, then power down.  If you power down during a game, the retroarch-core-options.cfg file will get overwritten, and you will lose some functionality (green colorization in GB, high resolution in Dreamcast).  If this happens to you, paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card: https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg 
+- Be sure to use the new "safe shutdown" method.  If you cycle through your available systems, you will see a screen with a power switch icon and the word 'shutdown'.  Press the A button to safely shutdown your system without using your power button.  The best way to think of this is that you will use the POWER button to turn ON your system, and the shutdown icon to power OFF your system.  This will ensure that your saves and configuration files persist.  
+- If you power down the system without using the safe shutdown method, the retroarch-core-options.cfg file may get overwritten, and you will lose some functionality (green colorization in GB, high resolution in Dreamcast).  If this happens to you, paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card: https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg 
 - L2 and R2 are not assigned in RetroArch, and I cannot figure out how to assign them since we're locked out of the RetroArch menu.  For this reason, I am still using the PS1 emulator that shipped with the S30 device.
-- Unfortunately, save files do not seem to be persistent via normal use, something with the power-down system on the device will wipe save files (similar to the core options file issue above).  But discord user VinceHase has figured out that if you save a game, then select "Close Content" to close the game down, and then immediately open up any other ROM from a different emulator/system before powering off the device, the save game for that first ROM will save.  It's a bit of a workaround, but this seems to be the only way to predictably save your games.
 - If you are not satisfied by the full-screen aspect ratio for every system, you can change it yourself relatively easily.  Check out my writen guide for detailed instructions: https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
 - If you are interested in adding your own RetroArch cores to this device, they are running cores from this repo: https://github.com/bite-your-idols/Gamestarter/tree/master/packages/libretro-cores-RPi
 
 ## Changelog
+
+<b>v1.7 (29JAN2021)</b><br>
+
+- New safe shutdown method to preserve saves and configuration files.  Thank you to DaMikki for the solution.
+- Added epicnoir theme to optional themes, thank you to TetrisSQC for the work.
+
+For users coming from v1.6 of this pack, you need to perform the following steps to implement safe shutdown:
+
+- Move the 'softshutdown' folder in this package to the 'emus' directory of your SD card.
+- Move the emulators/99 shutdown (System) file from this pack to the sections/emulators directory of your SD card
+- Move the wallpapers/poweroff.png file from this pack to the skins/Default/wallpapers directory of your SD card
+
+Users coming from v1.5 or earlier, be sure to also perform the steps indicated on the v1.6 update.
 
 <b>v1.6 (25JAN2021)</b><br>
 This update fixes a number of issues related to aspect ratio and Dreamcast buttons.
