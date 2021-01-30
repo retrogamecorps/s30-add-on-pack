@@ -115,7 +115,7 @@ ATARI 2600<br>
 - If you power down the system without using the safe shutdown method, the retroarch-core-options.cfg file may get overwritten, and you will lose some functionality (green colorization in GB, high resolution in Dreamcast).  If this happens to you, paste this code in the emus/retro/retroarch-core-options.cfg file on your SD card: https://github.com/retrogamecorps/s30-add-on-pack/blob/main/retro/retroarch-core-options.cfg 
 - L2 and R2 are not assigned in RetroArch, and I cannot figure out how to assign them since we're locked out of the RetroArch menu.  For this reason, I am still using the PS1 emulator that shipped with the S30 device.
 - If you are not satisfied by the full-screen aspect ratio for every system, you can change it yourself relatively easily.  Check out my writen guide for detailed instructions: https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
-- If you are interested in adding your own RetroArch cores to this device, they are running cores from this repo: https://github.com/bite-your-idols/Gamestarter/tree/master/packages/libretro-cores-RPi
+- If you are interested in adding your own RetroArch cores to this device, they are running cores from this repo: https://github.com/Retro-Arena/ARES-Binaries/tree/master/buster/odroid-xu/kms/libretrocores
 
 ## Changelog
 
