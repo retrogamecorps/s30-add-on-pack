@@ -13,7 +13,7 @@ This add-on pack assumes that you have already backed up the stock SD card that 
 
 <b>PocketGo S30 Starter Guide</b>, which includes accepted game file types and a video walkthrough: https://retrogamecorps.com/2021/01/08/pocketgo-s30-starter-guide/
 
-If you would rather download an fresh copy of the original SD card contents (+ the v1.6 add-on pack pre-loaded), and paste into a brand new SD card, you can find it here.  Note that you must format the new card to FAT32, and this does not include any ROM or BIOS files, so you will need to add those yourself. https://drive.google.com/file/d/1bHU6oCX4zQgXECaDV9Bu8nrLDoMxEC43/view?usp=sharing
+If you would rather download an fresh copy of the original SD card contents (+ the v1.7 add-on pack pre-loaded), and paste into a brand new SD card, you can find it here.  Note that you must format the new card to FAT32, and this does not include any ROM or BIOS files, so you will need to add those yourself. https://drive.google.com/file/d/1-C9SkaPAZx7EfABEA6QXyaSk4c0FynQQ/view?usp=sharing
 
 ## Credit
 
