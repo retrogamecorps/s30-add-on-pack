@@ -23,6 +23,8 @@ game_bg.png image by VinceHase<br>
 Futura theme by Baguette Crusader<br>
 Futura (alternate) theme by victoriemini<br>
 ckau theme by Cartman
+epicnoir theme by TetrisSQC
+save shutdown solution by DaMikki
 
 ## Instructions
 
