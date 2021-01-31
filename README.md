@@ -22,9 +22,9 @@ https://github.com/CkauNui/ckau-book<br>
 game_bg.png image by VinceHase<br>
 Futura theme by Baguette Crusader<br>
 Futura (alternate) theme by victoriemini<br>
-ckau theme by Cartman
-epicnoir theme by TetrisSQC
-save shutdown solution by DaMikki
+ckau theme by Cartman<br>
+epicnoir theme by TetrisSQC<br>
+safe shutdown solution by DaMikki
 
 ## Instructions
 
