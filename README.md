@@ -1,6 +1,12 @@
 # PocketGo S30 Add-On Pack 
 by onionsaregross (http://retrogamecorps.com)
 
+## IMPORTANT UPDATE
+
+THIS PROJECT HAS NOW BEEN REPLACED BY <a href="https://github.com/retrogamecorps/Simple30">SIMPLE30</a>, A NEW FIRMWARE FOR THE POCKETGO S30.
+
+## Archived Add-On Pack information
+
 <b>To download, click on the green "Code" button at the top-right of this page, and then select "Download Zip".</b><br>
 
 If you would rather download an fresh copy of the original SD card contents (+ the v1.7 add-on pack pre-loaded), and paste into a brand new SD card, you can find it here.  Note that you must format the new card to FAT32, and this does not include any ROM or BIOS files, so you will need to add those yourself. https://drive.google.com/file/d/1-C9SkaPAZx7EfABEA6QXyaSk4c0FynQQ/view?usp=sharing
